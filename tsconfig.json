@@ -20,6 +20,9 @@
     "noEmit": true,
     "jsx": "react"
   },
+  "plugins": [
+    "@babel/plugin-proposal-optional-chaining"
+  ],
   "include": [
     "src"
   ]
